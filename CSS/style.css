@@ -1,0 +1,283 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+@keyframes cloud{
+    0%{
+        opacity: 5;
+        transform: translateX(100vw);
+    }
+    100%{
+        opacity: 5;
+        transform: translateX(0vw);
+    }
+}
+
+@keyframes cloud2{
+    0%{
+        opacity: 5;
+        transform: translateX(0vw);
+    }
+    100%{
+        opacity: 5;
+        transform: translateX(100vw);
+    }
+}
+@font-face{
+    src: url(../Fonts/Sacramento.ttf);
+    font-family: "sacramento";
+}
+
+@font-face{
+    src: url(../Fonts/Merriweather.ttf);
+    font-family: "merri";
+}
+
+@font-face{
+    src: url(../Fonts/Montserrat.ttf);
+    font-family: "mon";
+}
+
+#top-title{
+    font-family: sacramento;
+    font-size: 110px;
+    font-weight: bold;
+    color: rgb(1, 73, 49);
+}
+
+.content-sub{
+    padding: 0%;
+    padding-bottom: 0%;
+    font-family: mon;
+    font-size: 40px;
+    color: rgb(1, 73, 49);
+}
+
+.top-container{
+    background: rgb(137, 229, 137);
+    padding: 10%;
+    padding-bottom: 0%;
+    clear: both;
+}
+
+.top-content{
+    text-align: center;
+}
+
+#mountain{
+    top: 90;
+    clear: both;
+}
+
+#cloud1{
+    position: absolute;
+    top: 30px;
+    animation: cloud 10s infinite;
+}
+
+#cloud2{
+    float: right;
+    position: absolute;
+    animation: cloud2 15s infinite;
+}
+
+.mid-container{
+    padding-top: 5%;
+    text-align: center;
+}
+
+#pic{
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+}
+
+#mid-title{
+    font-size: 50px;
+    padding: 1%;
+    padding-bottom: 0%;
+    font-family: "mon";
+    color: rgb(1, 73, 49);
+}
+
+.hi{
+    border: dotted;
+    margin-right: 48%;
+    margin-left: 48%;
+    color: rgb(1, 73, 49);
+}
+
+.mid{
+    font-family: "mon";
+    padding: 2%;
+    line-height: 45px;
+}
+
+#Skills{
+    text-align: center;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+.top{
+    font-family: "mon";
+    font-size: 50px;
+    color: rgb(1, 73, 49);
+    padding: 5%;
+    padding-bottom: 7%;
+}
+
+.des{
+    font-family: "sacramento";
+    font-weight: bolder;
+    font-size: 40px;
+    color: rgb(1, 73, 49);
+    text-align: left;
+    text-indent: 1%;
+}
+
+.p1{
+    text-align: justify;
+    text-indent: 2%;
+    line-height: 2.0;
+    margin-top: 1%;
+    font-family: "mon";
+    margin-right: 15%;
+    margin-left: 15%;
+    margin-bottom: 8%;
+}
+
+.writing{
+    font-family: "sacramento";
+    font-weight: bolder;
+    font-size: 50px;
+    color: rgb(1, 73, 49);
+    text-align: left;
+    margin-left: 10% ;
+}
+.p2{
+    text-align: justify;
+    margin-left: 12%;
+    margin-top: 1%;
+    font-family: "mon";
+    margin-right: 15%;
+    line-height: 2.0;
+}
+
+.hi2{
+    border: dotted;
+    margin-right: 48%;
+    margin-left: 48%;
+    margin-top: 10%;
+    color: rgb(1, 73, 49);
+}
+
+.design{
+    float: left;
+    height: 150px;
+    margin-left: 10%;
+    padding-right: 2%;
+}
+
+.write{
+    float: right;
+    height: 150px;
+    margin-right: 10%;
+    padding-left: 2%;
+    margin-top: 3%;
+}
+
+#Get{
+    text-align: center;
+}
+
+.last{
+    font-family: "sacramento";
+    font-weight: bolder;
+    color: rgb(1, 73, 49);
+    font-size: 60px;
+    padding: 10%;
+    padding-bottom: 3%;
+}
+
+.know{
+    font-family: "mon";
+    font-weight: bolder;
+    font-size: 25px;
+    color: rgb(1, 73, 49);
+    padding-bottom: 2%;
+}
+
+.p3{
+    font-family: "mon";
+    font-size: 20px;
+}
+
+.contact{
+    font-family: "mon";
+    font-size: 20px;
+    font-weight: lighter;
+    margin-top: 5%;
+    background-color: rgb(1, 73, 49);
+    color: white;
+    display: inline-block;
+    padding: 5px;
+    border-radius: 7%;
+}
+
+.footer{
+    text-align: center;
+    margin-top: 7%;
+    padding-top: 5%;
+    background-color: rgb(137, 229, 137);
+}
+
+#social{
+    font-family: "mon";
+    font-size: 15px;
+    color: rgb(1, 73, 49);
+}
+
+.insta{
+    text-decoration: none;
+    font-family: "mon";
+    padding: 50px;
+    color: rgb(1, 73, 49);
+}
+
+.insta:hover{
+    color: white;
+    font-weight: bold;
+}
+
+.facebook{
+    text-decoration: none;
+    font-family: "mon";
+    padding: 50px;
+    color: rgb(1, 73, 49);
+}
+
+.facebook:hover{
+    color: white;
+    font-weight: bold;
+}
+
+.twitter{
+    text-decoration: none;
+    font-family: "mon";
+    padding: 50px;
+    color: rgb(1, 73, 49);
+}
+
+.twitter:hover{
+    color: white;
+    font-weight: bold;
+}
+
+.copyright{
+    line-height: 70px;
+    font-family: "mon";
+    color:white;
+    font-weight: bold;
+}
